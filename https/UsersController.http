@@ -1,0 +1,25 @@
+
+
+### Creating new user
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "firstName": "Mahadi",
+  "lastName": "Hasan",
+  "email": "mahadi@gmail.com",
+  "password": "12345678"
+}
+
+### Login in to the system
+POST http://localhost:8080/users/login
+Content-Type: application/json
+
+{
+  "email": "mahadi@gmail.com",
+  "password": "12345678"
+}
+
+### Login in to the system
+POST http://localhost:8080/users/65be43cf-1ada-4779-b9a4-8b70c64820e4
+Content-Type: application/json
