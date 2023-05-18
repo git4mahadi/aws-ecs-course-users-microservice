@@ -20,6 +20,6 @@ Content-Type: application/json
   "password": "12345678"
 }
 
-### Login in to the system
+### Get user details
 POST http://localhost:8080/users/65be43cf-1ada-4779-b9a4-8b70c64820e4
 Content-Type: application/json
